@@ -1,0 +1,17 @@
+<phpunit backupGlobals="false"
+	 bootstrap="./tests/bootstrap.php" colors="false"
+	 stopOnFailure="false"
+	 verbose="false">
+
+    <testsuites>
+        <testsuite name="uTransport test suite">
+            <directory>src</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
