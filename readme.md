@@ -2,13 +2,13 @@
 
 uTransport can send HTTP requests for any urls by post and get methods.
 
-# Install
+## Install
 
     ```bash
     composer require sidmal/utransport
     ```
     
-# Basic Usage
+## Basic Usage
 
     ```php
     <?php
