@@ -8,6 +8,13 @@ uTransport can send HTTP requests for any urls by post and get methods.
     
 # Basic Usage
 
+    ```php
+    <?php
+    
+    use UTransport\AbstractProvider;
+    use UTransport\Transport\BasicAuth;
+    use UTransport\Transport\Request;
+    
     /**
     * BasicAuth object contain data for HTTP basic authorization on the request url.
     **/
