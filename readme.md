@@ -4,7 +4,9 @@ uTransport can send HTTP requests for any urls by post and get methods.
 
 # Install
 
+    ```bash
     composer require sidmal/utransport
+    ```
     
 # Basic Usage
 
@@ -37,3 +39,4 @@ uTransport can send HTTP requests for any urls by post and get methods.
     *  Get RequestLog object which contain information about last HTTP request.
     **/
     $log = $provider->getTransport()->getLog();
+    ```
